@@ -1,0 +1,646 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  main{
+    height: 30rem;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  
+  .nav-bar{
+    width: 100%;
+    height: 4rem;
+    border-bottom: .2rem solid black;
+    
+  }
+  
+  header i.fas.fa-bars{
+    display: none;
+  }
+  
+  .ul-nav{
+    list-style-type: none;
+    
+    
+    
+  }
+  
+  .li-nav{
+  display: inline-block;
+  width: 12%;
+  
+  
+  }
+  
+  .a-nav{
+    text-decoration: none;
+    color: gray; 
+  
+  }
+  
+  .li-nav:last-of-type{
+    border:  .2rem solid black;
+    height: 2.5rem;
+    width: 6.5%;
+    padding: .5% 1.5%;
+    border-radius: 10%;
+    background-color: gray;
+  }
+  
+  .li-nav:last-of-type a{
+    color: white;
+    
+  }
+  
+  .intro{
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 3%;
+  position: relative;
+  float: left;
+  }
+  
+  .woman{
+    width: 50%;
+    padding-left: 10%;
+    float: left;
+  }
+  
+  .img-logo{
+    height: 8rem;
+    width: 30%;
+    display: block;
+    position: relative;
+    left: 30%;
+  }
+  
+  .empowering{
+    text-align: left;
+    
+  }
+  
+  .empowering h1{
+    font-size: 2rem;;
+  }
+  
+  .empowering p{
+    font-size: 1.2rem;
+  }
+  
+  .empowering p+p{
+    padding-top: 3%;
+  }
+  
+  
+  .inp-mail{
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 5%;
+    border: .1rem solid lightgray;
+  }
+  
+  
+  .a-subm{
+    color: white;
+    text-decoration: white;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 20%;
+    display: inline-block;
+    border: .1rem solid lightgray;
+    background: lightblue;
+    border-radius: 5%;
+  }
+  
+  .form-subm{
+    height: 3rem;
+    width: 100%;
+  }
+  
+  .wom{
+    height: 30rem;
+    width: 70%;
+    display: block;
+  
+  }
+  
+  .info{
+    clear: both;
+    border-bottom: .2rem solid black;
+    height: 30rem;
+    text-align: center;
+    
+  }
+  
+  .develop{
+    width: 50%;
+    float: left;
+  
+  }
+  
+  .foster{
+    width: 50%;
+    float: left;
+  }
+  
+  .develop p{
+    border-top: .2rem solid rgb(255, 221, 240);
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: 1.2rem;
+  }
+  
+  .foster p{
+    border-top: .2rem solid  rgb(255, 221, 240);
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: 1.2rem;
+  }
+  
+  .boston{
+    clear: both;
+    padding-top: 5%;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: navy;
+  }
+  
+  .info{
+    padding-top: 4%;
+  }
+  .what{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3%;
+  }
+  
+  .history{
+    height: 35rem;
+    width: 100%;
+    border-bottom: .2rem solid black;
+  }
+  
+  .ourhistory{
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 1%;
+    float: left;
+  }
+  
+  .ourhistory h3{
+    font-size: 2rem;
+  }
+  
+  .ourhistory p{
+    font-size: 1.2rem;
+  }
+  
+  .group{
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 2%;
+    float: left;
+  
+  }
+  
+  .grouppic1{
+    height: 15rem;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+  }
+  
+  .grouppic2{
+    height: 15rem;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .wwa{
+    clear: both;
+    height: 40rem;
+    width: 100%;
+    border-bottom: .2rem solid black;
+  }
+  
+  .who{
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .atsukofish{
+    float: left;
+    width: 40%;
+    padding-left: 15%;
+  }
+  
+  .atsukofish img{
+    height: 28rem;
+    width: 65%;
+  }
+  
+  .founder{
+    width: 60%;
+    padding: 0% 10%;
+    font-size: 1.4rem;
+    float: left;
+  }
+  
+  .founder h4{
+    margin: 0%;
+  }
+  
+  .mas{
+    width: 100%;
+    height: 30rem;
+    padding-left: 10%;
+  }
+  
+  .family{
+    width: 30%;
+    padding-top: 5%;
+    float: left;
+  }
+  
+  .family h4{
+    font-size: 2rem;
+    margin-top: 0%;
+  }
+  
+  .family p{
+    font-size: 1.3rem;
+  }
+  
+  .simmons{
+      width: 60%;
+      padding-left: 20%;
+      float: left;
+  
+    
+  }
+  
+  .simmons p{
+    font-size: 1.3rem;
+  }
+  
+  .simpic{
+    height: 6rem;
+    width: 40%;
+  }
+  
+  .newsletter{
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(149, 191, 226);
+  }
+  
+  .newsletter h4{
+    display: inline-block;
+    width: 35%;
+    height: 2rem;
+    color: white;
+    font-size: 1.6rem;
+  }
+  
+  .form-lett{
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .inp-lett{
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 5%;
+    border: .1rem solid lightgray;
+  }
+  
+  
+  .a-lett{
+    color: white;
+    text-decoration: white;
+    font-size: 1.3rem;
+    height: 2.5rem;
+    width: 10%;
+    display: inline-block;
+    border: .1rem solid lightslategray;
+    background: lightsteelblue;
+    border-radius: 5%;
+    padding: .2% .1%;
+   
+  }
+  
+  footer{
+    height: 15rem;
+    width: 100%;
+    background-color: rgb(143, 156, 163);
+  }
+  
+  .copyright{
+    float: left;
+    width: 50%;
+    padding-left: 20%;
+  }
+  
+  .copyright h5{
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .social{
+    width: 50%;
+    padding-top: 1%;
+    float: left;
+  }
+  
+  .social ul{
+    list-style: none;
+  }
+  
+  .social ul li{
+    width: 18%;
+    text-align: left;
+    float: left;
+  }
+  
+  .social a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .bott{
+    clear: both;
+    border-top: .1rem solid white;
+  }
+  
+  .home{
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  
+  .ul-home{
+    list-style: none;
+  }
+  
+  .ul-home a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .home > a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-top: 6.5%;
+  }
+  
+  @media only screen and (max-width: 37rem){
+    .nav-bar{
+        display: none;
+    }
+
+    main{
+        height: 20rem;
+    }
+
+    header i.fas.fa-bars{
+        display: block;
+    }
+
+    .intro{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .toplogo{
+        display: block;
+        width: 60%;
+    }
+
+    .toplogo img{
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .empowering{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .empowering h1, .empowering p{
+        font-size: 1rem;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .empowering p+p{
+        display: none;
+    }
+
+    .form-subm{
+        clear: both;
+        display: block;
+        padding-top: 4%;
+        width: 100%;
+    }
+
+    .inp-mail{
+        display: inline-block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .a-subm{
+        display: inline-block;
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .woman{
+        display: none;
+    }
+
+    .info{
+        clear: both;
+    }
+
+    .what h2{
+        font-size: 1rem;
+    }
+    .info p {
+        font-size: 1rem;
+    }
+
+    .boston{
+        display: none;
+    }
+
+   .history, .wwa{
+       display: none;
+   }
+
+   .family h4, .family p, .simmons p{
+       font-size: 1rem;
+   }
+
+   .newsletter{
+       display: none;
+   }
+
+   footer{
+       display: none;
+   }
+
+}
+
+@media (min-width: 39rem) and (max-width: 60rem){
+    .non{
+        display: none;
+    }
+
+    .nav-bar{
+        display: inline-block;
+        width: 100%;
+    }
+    .li-nav{
+        width: 20%;
+    }
+
+    .history{
+        background-color: gainsboro;
+    }
+
+    .ourhistory h3{
+        font-size: 1.2rem;
+    }
+
+    .ourhistory p{
+        font-size: 1/1rem;
+    }
+
+    .founder h4{
+        font-size: 1.2rem;
+    }
+
+    .founder p{
+        font-size: 1.05rem;
+    }
+
+    .mas{
+        background-color: gainsboro;
+    }
+
+    .mas p{
+        font-size: 1rem;
+    }
+
+    .simmons{
+        padding-top: 5%;
+    }
+
+    .newsletter h4{
+        font-size: 1rem;
+        height: 2rem;
+        width: 45%;
+    }
+}
+
+@media(max-width: 1040rem){
+      .ourhistory p{
+        font-size: 1rem;
+    }
+
+    .founder p{
+        font-size: 1rem;
+    }
+    .newsletter{
+        text-align: center;
+        display: block;
+    }
+    .newsletter h4{
+        display: block;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .form-lett{
+        display: block;
+    }
+
+    .inp-lett{
+        height: 2rem;
+    }
+
+    .a-lett{
+        font-size: 1rem;
+    }
+
+    .a-nav{
+        font-size: .8rem;
+    }
+
+
+}
+
+
+@media (max-width: 820rem){
+    
+
+    .inp-mail{
+        height: 1rem;
+    }
+
+    .form-subm{
+        height: 1.5rem;
+        margin-top: 0%;
+    }
+
+
+
+    .a-subm{
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .li-nav:last-of-type{
+        width: 9%;
+    }
+}
+
+@media (max-width: 69rem){
+    .form-subm{
+        padding-bottom:5%;
+    }
+
+    .empowering h1{
+        font-size: 1rem;
+    }
+
+    .ourhistory p{
+        font-size: .9rem;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .newsletter{
+        display: none;
+    }
+}
+  
+  
+  
