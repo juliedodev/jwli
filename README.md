@@ -2,6 +2,8 @@ The goal of this project is to replicate the Japanese Women Leadership Institute
 
 <img src="JWLI.png">
 
+Site: [https://juliedodev-jwli.netlify.app]
+
 How It's Made:
 <ul>
 <li>HTML</li>
